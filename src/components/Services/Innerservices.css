@@ -1,0 +1,31 @@
+.innerservices-container {
+    width: 300px;
+    margin: 10px;
+    height: 330px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F1F1F1;
+  }
+  
+  .innerservices-container img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+  }
+  
+  .innerservices-container h3,
+  .innerservices-container p,
+  .innerservices-container span {
+    color: black;
+  }
+  
+  .innerservices-container:hover {
+    background-color: #66a3ff;
+  }
+  
+  .innerservices-container:hover h3,
+  .innerservices-container:hover p,
+  .innerservices-container:hover span {
+    color: white;
+  }
+  

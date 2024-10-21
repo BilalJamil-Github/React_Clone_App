@@ -1,0 +1,42 @@
+.client-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.client-header h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 26px;
+}
+
+.client-header p {
+  color: #888888;
+  margin-top: -20px;
+}
+
+.client-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.inner-client {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .client-header h2 {
+      font-size: 22px;
+  }
+
+  .client-header p {
+      font-size: 0.9rem;
+  }
+
+  .inner-client {
+      flex: 1 1 100%;
+  }
+}

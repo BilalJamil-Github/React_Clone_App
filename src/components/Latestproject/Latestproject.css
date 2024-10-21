@@ -1,0 +1,49 @@
+.latest-project-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.latest-project-container h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 26px;
+}
+
+.latest-project-container p {
+  color: #888888;
+  font-size: 1rem;
+}
+
+.latest-project-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+.latest-project-images > div {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.inner-latest-container {
+  width: 300px; 
+  height: auto;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .latest-project-images {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .inner-latest-container {
+    width: 90%; 
+    max-width: 300px; 
+  }
+}

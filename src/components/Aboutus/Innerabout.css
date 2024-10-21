@@ -1,0 +1,35 @@
+.innerabout-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.innerabout-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 20px auto;
+}
+
+.innerabout-title,
+.innerabout-description {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.more-information {
+    color: blue;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .innerabout-image {
+        margin-left: 90px;
+    }
+
+    .innerabout-title,
+    .innerabout-description,
+    .more-information {
+        margin-left: 100px;
+    }
+}
